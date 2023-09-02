@@ -1,0 +1,15 @@
+{
+  "name": "kiss-my-wallet-db",
+  "version": "1.0.0",
+  "description": "the backend for the Kiss My Wallet transaction tracking application",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "budget",
+    "finance"
+  ],
+  "author": "Joseph Bradshaw (joseph.bradshaw@outlook.com)",
+  "license": "ISC"
+}
