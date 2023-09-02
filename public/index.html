@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dev API Test Playground</title>
+    <script src="./main.js"></script>
+</head>
+<body>
+    <div>
+        <input type="text" id="username" placeholder="Username">
+        <input type="number" id="userid" placeholder="User ID">
+        <button id="create-user">Create User</button>
+    </div>
+    <div>
+        <input type="text" id="category" placeholder="Category">
+        <input type="number" id="categoryid" placeholder="Category ID">
+        <input type="number" id="budget" placeholder="Budget">
+        <input type="number" id="category-userid" placeholder="User ID">
+        <button id="create-category">Create Category</button>
+    </div>
+    <div>
+        <input type="date" id="date" placeholder="Date">
+        <input type="number" id="amount" placeholder="Amount">
+        <input type="number" id="transactionid" placeholder="TransactionID">
+        <input type="number" id="transaction-userid" placeholder="User ID">
+        <input type="number" id="transaction-categoryid" placeholder="Category ID">
+        <button id="create-transaction">Create Transaction</button>
+    </div>
+
+    <button id="get-users">Get Users</button>
+    <button id="get-categories">Get Categories</button>
+    <button id="get-transactions">Get Transactions</button>
+
+    <pre id="result"></pre>
+</body>
+</html>
+
